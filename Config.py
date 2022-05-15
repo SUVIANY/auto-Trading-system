@@ -8,7 +8,7 @@ tickers = MongoClient
 
 def notifyMe(message) :
     try : 
-        url = f'https://api.telegram.org/bot2022290712:AAH_zCy9PUtBXRC46rZ6p8EMzqepKxu6xwE/sendMessage?chat_id=@nanoATS&text={message}'
+        url = f'https://api.telegram.org/-:-/sendMessage?chat_id=@-&text={message}'
         requests.post(url)
     except Exception as e :
         print(f"notifyMe\n{e}")
