@@ -34,15 +34,3 @@ class format() :
                     print(f"pairPriceinfo\n{e}")
 
 
-#data.delete_many({})
-#panel.insert_one({"_id":"controlpanel","system":"OFF"})
-#panel.insert_one({"_id":"BTCPSG","psg":0})
-#order.insert_one({"_id":"buylimit","coins":[]})
-#order.update_one({"_id":"buylimit"},{"$addToSet":{"coins":{"coinName":"SOLUSDT","price":213,"orderId":1537202387} }})
-#order.update_one({"_id":"buylimit"},{"$addToSet":{"coins":{"coinName":"SOLUSDT","price":"133","usdt":200,"orderId":1537202387,"tppsg":20,"reach":10,"term":panel.find_one({"_id":"controlpanel"})["term"]}}})
-#order.update_one({"_id":"buylimit","coins":{"$elemMatch":{"coinName":"SOLUSDT"}}},{"$set":{"coins.$.reach":0}})
-#tickers.delete_many({})
-#tickers.insert_one({"_id":"discounts","tickers":[]})
-#tickers.insert_one({"_id":"safe","tickers":[]})
-#tickers.insert_one({"_id":"risk","tickers":[]})
-#tickers.update_one({"_id":"safe"},{"$addToSet":{"tickers":"SOLUSDT"}})
